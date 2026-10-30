@@ -1,12 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="az">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>GəzGör Azərbaycan</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Cukur Qrupu</h1>
-    <p>Salam</p>
-</body>
+  <!-- Menyu: # işarəsi eyni səhifədəki bölməyə aparır -->
+  <nav>
+    <a href="#ana">Ana səhifə</a> |
+    <a href="#turlar">Turlar</a> |
+    <a href="#qiymetler">Qiymətlər</a> |
+    <a href="#elaqe">Əlaqə</a>
+  </nav>
+  <hr>
+  <!-- 1. ANA SƏHİFƏ -->
+  <h1 id="ana">GəzGör Azərbaycan</h1>
+  Bakı, Şəki və Qəbələ üçün hazır tur paketləri.
+  <a href="#turlar">Turlara bax</a>
+  <h2>Problem</h2>
+  Turistlər qiyməti məlum, hazır tur paketlərini bir yerdə tapa bilmir.
+  <h2>Həll</h2>
+  Biz hər şəhər üçün hazır marşrut, nəqliyyat və bələdçi təklif edirik.
+  <hr>
+  <!-- 2. TURLAR -->
+  <h1 id="turlar">Tur paketləri</h1>
+  <h2>Bakı turu - 50 AZN</h2>
+  Müddət: 1 gün
+  <ul>
+    <li>İçərişəhər</li>
+    <li>Qız Qalası</li>
+  </ul>
+  <h2>Şəki turu - 120 AZN</h2>
+  Müddət: 2 gün
+  <ul>
+    <li>Xan Sarayı</li>
+    <li>Karvansaray</li>
+  </ul>
+  <h2>Qəbələ turu - 110 AZN</h2>
+  Müddət: 2 gün
+  <ul>
+    <li>Yeddi Gözəl şəlalə</li>
+    <li>Tufandağ</li>
+  </ul>
+  <hr>
+  <!-- 3. QİYMƏTLƏR -->
+  <h1 id="qiymetler">Qiymətlər</h1>
+  <table border="1">
+    <tr>
+      <th>Plan</th>
+      <th>Qiymət</th>
+      <th>Daxildir</th>
+    </tr>
+    <tr>
+      <td>Standart</td>
+      <td>50 AZN</td>
+      <td>Nəqliyyat, bələdçi</td>
+    </tr>
+    <tr>
+      <td>Premium</td>
+      <td>120 AZN</td>
+      <td>Nəqliyyat, bələdçi, yemək</td>
+    </tr>
+    <tr>
+      <td>VIP</td>
+      <td>250 AZN</td>
+      <td>Fərdi bələdçi, otel, yemək</td>
+    </tr>
+  </table>
+  <hr>
+  <!-- 4. ƏLAQƏ -->
+  <h1 id="elaqe">Bizimlə əlaqə</h1>
+  <form>
+    Ad:
+    <input type="text">
+    Telefon:
+    <input type="text">
+    Şəhər:
+    <select>
+      <option>Bakı</option>
+      <option>Şəki</option>
+      <option>Qəbələ</option>
+    </select>
+    Mesaj:
+    <textarea rows="5" cols="40"></textarea>
+    <button>Göndər</button>
+  </form>
+  <hr>
+  <footer>GəzGör Azərbaycan 2026</footer>
+  <h1>salam</h1>
 </html>
